@@ -1,0 +1,19 @@
+{
+  "id": "noctalia-victus",
+  "name": "noctalia-victus",
+  "version": "0.1.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "reekta",
+  "license": "GPL-v3",
+  "repository": "https://www.github.com/reekta92/noctalia-victus",
+  "description": "victus-control fan integration into Noctalia Shell",
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {}
+  }
+}
