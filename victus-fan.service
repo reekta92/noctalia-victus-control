@@ -1,0 +1,12 @@
+[Unit]
+Description=HP Victus Fan Watchdog
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/victus-fan-daemon.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
