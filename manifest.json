@@ -1,0 +1,12 @@
+{
+  "id": "victus-fan",
+  "name": "Victus Fan Control",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "Local",
+  "license": "MIT",
+  "description": "Taskbar widget to control HP Victus fan speeds via systemd daemon",
+  "entryPoints": {
+    "barWidget": "FanControl.qml"
+  }
+}
